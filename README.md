@@ -1,4 +1,4 @@
-# BuzzKill Sound Effects Board.
+# BuzzKill Sound Effects Board
 
 |<img src="assets/BuzzKill_prototype.png" height="250px" alt="BuzzKill Board">|<img src="assets/BuzzKill_mounted.png" height="250px" alt="BuzzKill Mounted">|
 |:---:|:---:|
