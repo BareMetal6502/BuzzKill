@@ -1,4 +1,4 @@
-# Hardware Notes
+# Hardware Notes.
 
 Constructing the BuzzKill hardware can be divided into two distinct steps: fabricating the PCB, and assembling (populating) the PCB.
 
