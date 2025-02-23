@@ -1,4 +1,4 @@
-# User Documentation
+# User Documentation.
 
 * [Hardware Guide](./BuzzKill_hardware_guide.pdf) -- Quick guide for hardware connections. Contains information on powering the board, interfacing with other devices, speaker requirements, and mounting options.
 
