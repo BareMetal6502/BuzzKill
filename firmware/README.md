@@ -1,4 +1,4 @@
-# Firmware Notes
+# Firmware Notes.
 
 ## Preparing the Firmware
 
