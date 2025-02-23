@@ -1,1 +1,1 @@
-Prototype Images
+Prototype Images.
