@@ -35,7 +35,7 @@
 * First are the tables which will be copied to ram during intialization, and accessed only from ram thereafter
 * They don't need any specific alignment since efficient access (of the flash during init) is not a concern
 * Thus they are "floating" tables that can be placed anywhere there is a reasonable space in flash memory
-*Sticking them into otherwise unused gaps here and there allows us to squeeze everything into our tight memory footprint
+* Sticking them into otherwise unused gaps here and there allows us to squeeze everything into our tight memory footprint
 **********/
 
 .MACRO TABLE_FABMIDL

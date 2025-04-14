@@ -76,7 +76,7 @@ modetwi:	sbi gpr_mode, 4
 	movw ZL, saveptr
 	out CPU_SREG, savestat
 	reti
-modermask:	sbi gpr_mode, 6
+modermask:	sbi gpr_mode, 5
 	sbi gpr_mode, 7
 	movw ZL, saveptr
 	out CPU_SREG, savestat

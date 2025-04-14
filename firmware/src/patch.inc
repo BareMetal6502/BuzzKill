@@ -46,7 +46,7 @@
 patchset:	ld store4, X+		; store4=first patch byte, pattern DDSSPPPP
 	ld store2, X+		; store2=second patch byte (patch parameter)
 	mov YL, store4		; Use Y as pointer at SRC data
-	lsr YL		; Move FF bits to proper position
+	lsr YL		; Move SS bits to proper position
 	andi YL, 0b00011000		; YL is now SRC*8 (each osc output area is 8 bytes)
 	subi YL, LOW(-oscdata)	; Add base address, Y now points at output area for SRC
 	swap store4		; Move PPPP bits to proper position

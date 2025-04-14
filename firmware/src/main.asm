@@ -160,7 +160,7 @@ relay_speech:	jmp speech
 ; This is a semi-arbitrary starting point for our main code (see note under patches section for why this may need to be adjusted if code changes)
 .ORG 0x0436
 
-; Here the main loop begins. We should end up back here approximately every 61 usec.
+; Here the main loop begins. We should end up back here approximately every 61 usec
 main:	ldi YL, 0x09		; Switch interrupts from timer mode to input mode
 	ldi YH, 0x0a		; Y now points to 0x0a09 (one below TCA0_SINGLE_INTCTRL)
 	std Y+1, zero		; TCAO overflow interrupt now inactive
