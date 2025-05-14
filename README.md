@@ -53,6 +53,10 @@ Constructing a BuzzKill board for yourself consists of three phases:
 
 For more details, please read the [Hardware Notes](hardware#hardware-notes) and [Firmware Notes](firmware#firmware-notes).
 
+## Arduino Library
+
+A complete Arduino library is available at [BuzzKill-Arduino-Library](https://github.com/BareMetal6502/BuzzKill-Arduino-Library).
+
 ## License
 
 Copyright (c) 2025 Todd E. Stidham
